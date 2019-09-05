@@ -1,0 +1,68 @@
+table {
+  border-collapse: collapse;
+  width: 40%;
+  display: table-header-group;
+}
+td,th {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #333;
+  padding: 0.8em;
+}
+th {
+  background-color: #c0c0c0;
+}
+td.selected {
+  background-color: #483d8b;
+  color: #ffffff;
+}
+td.sample {
+  background-color: #94adda;
+  color: #000000;
+}
+td.point {
+  background-color: #00bfff;
+  color: #000000;
+}
+p.sample {
+  color: #ff0000;
+  font-size: 150%;
+}
+p.selected {
+  color: #0000ff;
+}
+h3 {
+  color: #ff0000;
+  font-size: 150%;
+}
+h5 {
+  font-size: 150%;
+}
+h1 {
+  background-color: #24140e;
+  color: #ffffff;
+}
+li {
+  font-size: 160%;
+  list-style: none;
+}
+span {
+  font-weight: bold;
+  font-size: 120%;
+}
+h4 {
+  font-size: 180%;
+}
+a {
+  font-size: 200%;
+  font-weight: bold;
+}
+a.selected {
+  font-size: 100%;
+}
+h2 {
+  font-size: 250%;
+  font-weight: bold;
+  background-color: #00008b;
+  color: #ffffff;
+}
